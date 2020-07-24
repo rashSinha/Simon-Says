@@ -1,6 +1,7 @@
 # Simon-Says
 
 Note: Please use a web server to run the program. 
+
 The old 80s game with a new twist.
 
 This game was created by using React and SASS. Instead of having the user remember which box was lit up, the user has to remember which color was shown and then recreate the pattern. 
