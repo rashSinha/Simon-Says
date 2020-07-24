@@ -1,0 +1,148 @@
+/* CSS style sheet */
+import:url(https://fonts.googleapis.com/css?family=Titan+One)
+
+$red-color: #ee0000
+$green-color: #228b22
+$blue-color: 	#1e90ff
+$yellow-color: #ffd700
+$size: 100px
+
+.parent-container
+  justify-content: center
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+
+.container
+  justify-content: center
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+
+.flex-buttons-container 
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  height: 240px
+  width: 240px
+  background-color: #ffffff
+  margin-left: 10px
+  list-style-type: none
+  order: 2  
+
+.flex-buttons-container > button
+  margin: 10px
+  text-align: center
+
+.flex-container 
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  height: 240px
+  width: 240px
+  background-color: #ffffff
+  margin-left: 10px
+  list-style-type: none
+  order: 2
+
+.flex-container > button 
+  margin: 10px
+  text-align: center
+  width: 100px
+  height: 100px
+  
+.selected-option
+  background-color: white
+  border-color: black
+  border-style: solid
+  width: 210px
+  height: 210px
+  order: 1
+  align-self: center
+  
+.colors
+  margin: auto
+  height: 240px
+  width: 240px
+  
+.t-l
+  background: $red-color
+  border-top-left-radius : 5px
+
+.t-r
+  background: $blue-color    
+  border-top-right-radius : 5px
+.b-l
+  background: $green-color
+  border-bottom-left-radius : 5px
+.b-r
+  background: $yellow-color
+  border-bottom-right-radius : 5px
+	
+.anim
+  opacity: 0.2
+	
+.count
+  font-family: 'Titan One', cursive
+  color : #DC0D29
+  font-size : 2em
+  width : 50px
+  background-color: #32050C
+  border : 4px solid #222
+  border-radius : 10px 
+  margin-left: 10px
+  margin-top: -2px
+  margin-right: 5px
+  padding-left: 5px
+
+h5
+  text-align: center
+  font-family: 'Titan One', cursive
+  padding-right: 5px
+  margin-top: 10px
+
+.alert
+  text-align: center
+	
+.btn-start
+  color: #fff
+  background-color: #088DA5
+  border: 1px solid #088DA5
+  font-family: 'Titan One', cursive
+  padding: 10px
+  border-radius: 25%
+  float: middle
+  width: 60px
+  height: 50px
+
+.btn-restart
+  color: #000
+  background-color: #FF0000
+  border: 1px solid #FF0000
+  font-family: 'Titan One', cursive
+  padding: 10px
+  border-radius: 25%
+  float: left
+  margin-left: 37px
+  margin-top: 10px
+  width: 70px
+  height: 50px
+.center
+  margin: 0
+  position: absolute
+  left: 50%
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+
+  
+  
+#message
+  color: #31708f
+  background-color: #d9edf7
+  border-color: #bce8f1
+  padding: 30px
+  width: 50%
+  text-align: center
+  margin: auto
+  margin-top: 10px
+  font-weight: bold
