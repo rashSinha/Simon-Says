@@ -1,5 +1,7 @@
 # Simon-Says
 
+https://codepen.io/rashsinha/pen/PoZRzNM
+
 Note: Please use a web server to run the program. 
 
 The old 80s game with a new twist.
